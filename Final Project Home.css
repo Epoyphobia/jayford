@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+
+.hey{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #6DB9EF;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #6DB9EF;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+ul li a:hover{
+    color: white;
+}
+
+
+.yow:focus{
+    outline: none;
+
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.description{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #F3F8FF;
+    position: relative;
+}
+
+.description .words{
+    padding-left: 25px;
+    padding-bottom: 30px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.description h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.description .hi{
+    width: 160px;
+    height: 40px;
+    background: #FFB534;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.description .hi a{
+    text-decoration: none;
+    color: black;
+    transition: .5s ease;
+
+}
+
+.hi:hover{
+    background-color: white;
+
+}
+
+.hello{
+    background: red;
+}
+
+.info h1{
+    
+   font-size: 20px;
+   font-family: 'Times New Roman';
+   color: orangered;
+}
+
+.info img{
+    width: 50px;
+    height: 50px;
+}
