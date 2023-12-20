@@ -3,7 +3,7 @@ body{
 }
 #prophet{
     text-align: center;
-    color: white;
+    color: #6DB9EF;
 }
 #Nature{
     display: block;
@@ -27,7 +27,7 @@ img:hover{
     transform: scale(1.2);
 }
 h3{
-    color: white;
+    color: #6DB9EF;
     margin-left: 100px;
 }
 p{
@@ -45,7 +45,5 @@ p{
     align-items: center;
     flex-wrap: wrap;
 }
-h1{
-    color: #6DB9EF;
-}
+
 
